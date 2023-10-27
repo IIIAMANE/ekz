@@ -34,6 +34,11 @@ async def echo_message(msg: types.Message):
     os.remove(full_path)
     del converter
     await bot.send_message(msg.from_user.id, message_text)
+
+
+
+import speech_recognition as sr
+import os
     
 -------------------------------------------------------------------------
 converter.py
